@@ -54,7 +54,7 @@ def ask_question(question):
     for doc in result["source_documents"]:
         st.write(doc.metadata["source"], "- Page", doc.metadata.get("page", "N/A"))
 
-# Streamlit app setup
+
 
 
 # Function to handle previous Q&A storage

@@ -32,5 +32,36 @@ Before running this project, ensure you have the following:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ctse-lecture-notes-chatbot.git
-cd ctse-lecture-notes-chatbot
+git clone https://github.com/it21159480/chatbot.git
+cd chatbot
+
+```
+
+### 2. Set Up Virtual Environment
+
+```bash
+python -m venv venv
+
+venv\Scripts\activate
+
+```
+### 3. Install Required Libraries
+
+```bash
+pip install -r requirements.txt
+```
+### 4. Create a .env file in the project folder with the following content
+
+```bash
+GROQ_API_KEY=your_actual_groq_api_key_here
+```
+### 5. Run 
+
+#### 1. locally 
+```bash
+python app.py
+```
+#### 2. Streamlit Application
+``` bash
+streamlit run app.py
+```
